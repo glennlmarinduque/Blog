@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="/style/layout.css">
+     
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="stylesheet" href="/style/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+        <link rel="icon" href="/img/blog_logo.png">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <title>Blog site</title>
+    
+    </head>
+<body>
+    
+
+    <%- include("partials/header.ejs"); %>
+
+
+    <section class="mt-3 py-3" id="contact">
+        <br> <br> <br>
+        <div class="h1 text-center mt-3">Contact Me</div>
+        <p class="text-center text-muted py-2 mb-5">Get in touch</p>
+            <div class=" container d-flex justify-content-center gap-3 flex-wrap">
+              <div>
+                <div class="d-flex justify-content-start gap-3">
+                  <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#6E57E0" class="bi bi-telephone" viewBox="0 0 16 16">
+                      <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <h5>Call Me</h5>
+                    <p class="text-secondary">+639-568-841-370</p>
+                  </div>
+                </div>
+                  <div class="d-flex justify-content-start gap-3">
+                    <div>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#6E57E0" class="bi bi-envelope" viewBox="0 0 16 16">
+                        <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/>
+                      </svg>
+                    </div>
+                    <div>
+                      <h5>Email</h5>
+                      <p class="text-secondary">glennlmarinduque@gmail.com</p>
+                    </div>
+                  </div>
+                  <div class="d-flex justify-content-start gap-3">
+                    <div>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#6E57E0" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                        <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"/>
+                        <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+                      </svg>
+                    </div>
+                    <div>
+                      <h5>Location</h5>
+                      <p class="text-secondary">Cebu city, Cebu</p>
+                    </div>
+                  </div>
+              </div>
+  
+                <!--      Forms    -->
+              <div >
+                <form action="https://api.web3forms.com/submit" method="POST" >
+                  <input type="hidden" name="access_key" value="edae24dc-502e-46f5-9ed3-e560fcec0d1f">
+                    <div class="d-flex justify-content-start flex-wrap gap-4 lato">
+                      <div class="p-3 form__color form__border darkForm">
+                        <label for="name"><small>Name</small></label>
+                        <br>
+                        <input type="text" name="name" class="border__none form__color darkForm" required>
+                      </div>
+                      <div class="p-3 form__color form__border darkForm">
+                        <label for="email"><small>Email</small></label>
+                        <br>
+                        <input type="email" name="email" class="border__none form__color darkForm" required>
+                      </div>
+                    </div>
+                    <div class="p-3 col-12 form__color my-4 form__border darkForm">
+                      <label for="Subject"><small>Subject</small></label>
+                      <br>
+                      <input class="border__none w-100 form__color darkForm" type="text" name="subject" required >
+                    </div>
+                    <div class="p-3 col-12 form__color form__border darkForm">
+                      <label for="message"><small>Message</small></label>
+                      <br>
+                      <textarea class=" form__color border__none w-100 darkForm " name="message" cols="0" rows="4"></textarea>
+                      
+                    </div>
+  
+                    <button type="submit" class="button-36 mt-4" role="button" style="text-decoration:none; color:white">Send Message 
+                     
+                </button>
+  
+                </form>
+                
+              </div>
+  
+            </div>
+      </section>
+  
+  
+
+
+
+
+
+
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <%- include("partials/footer.ejs"); %>
+
+
+</body>
+</html>
